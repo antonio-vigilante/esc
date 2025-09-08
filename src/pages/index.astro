@@ -22,25 +22,26 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
 <Layout>
   <Header />
-  <main id="main-content" data-layout="index">
-    <section id="hero" class="pt-8 pb-6">
+   <main id="main-content" data-layout="index">
+        <section id="hero" class="pt-8 pb-6">
+                      
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Educazione</br> Scuola Comunità
+      
+      <div class="flex items-center space-x-4 my-4 sm:my-8">
+      
+    <img
+      src="/images/esclogo.png"
+      alt="Logo"
+      class="h-24 w-24 rounded-full object-cover"
+    />
+
+    <!-- Linea verticale -->
+    <div class="h-20 border-l border-gray-400"></div>
+      <p></p>
+      
+      Educazione Scuola Comunità
       </h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="inline-block"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <IconRss
-          width={20}
-          height={20}
-          class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
+                 
 
       <p>
         Un forum permanente per discutere di inclusione
