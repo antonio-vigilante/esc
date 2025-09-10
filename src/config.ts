@@ -4,7 +4,7 @@ export const SITE = {
   profile: null,
   desc: "Educazione Scuola Comunità",
   title: "ESC",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "/images/esclogo.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
